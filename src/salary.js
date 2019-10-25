@@ -24,4 +24,4 @@ const C = A.toLocaleString("en", {minimumFractionDigits:2, maximumFractionDigits
 
 
 
-console.log("\nYour take-home pay each check will be $" + C +".");
+console.log("\nYour take-home pay each check will be $" + C +".\n");
