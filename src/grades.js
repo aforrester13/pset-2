@@ -26,4 +26,4 @@ function financial(h) {
   return Number.parseFloat(h).toFixed(2);
 }
 
-console.log("\nYour marking period grade is " + h + "%.");
+console.log("\nYour marking period grade is " + h + "%.\n");
