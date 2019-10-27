@@ -12,4 +12,4 @@ function financial(x) {
   return Number.parseFloat(x).toFixed(2)
 }
 
-console.log("\nA(n) " + w + "-by-" + l +  "-inch sheet of paper has a diagonal length of " + financial(x) +   " inch(es).");
+console.log("\nA(n) " + w + "-by-" + l +  "-inch sheet of paper has a diagonal length of " + financial(x) +   " inch(es).\n");
