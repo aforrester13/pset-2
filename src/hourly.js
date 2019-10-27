@@ -1,6 +1,7 @@
 const readlineSync = require("readline-sync");
 
-const HourlyWage = parseFloat(readlineSync.question("\nHourly Wage: "), 10);
+const HourlyWage = parseFloat(readlineSync.question("\nHourly wage: "), 10);
+
 let Monday = parseFloat(readlineSync.question("\nMonday: "), 10);
 let Tuesday = parseFloat(readlineSync.question("Tuesday: "), 10);
 let Wednesday = parseFloat(readlineSync.question("Wednesday: "), 10);
@@ -17,4 +18,4 @@ function financial(b) {
   return Number.parseFloat(b).toFixed(2);
 }
 
-console.log("\nYou'll make $" + financial(b) + " this week.");
+console.log("\nYou'll make $" + financial(b) + " this week.\n");
