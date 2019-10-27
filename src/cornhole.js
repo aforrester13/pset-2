@@ -14,4 +14,4 @@ let TotalArea = (SurfaceArea - AreaOfCircle);
 const A = TotalArea.toLocaleString("en", {minimumFractionDigits:2, maximumFractionDigits:2});
 
 
-console.log("The surface area of a standard Cornhole board is " + A + " square inch(es).");
+console.log("\nThe surface area of a standard Cornhole board is " + A + " square inch(es).\n");
