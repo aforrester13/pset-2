@@ -12,4 +12,4 @@ let f = c*s;
 let h = Math.round(100*f)/(100);
 let x = h.toLocaleString()
 
-console.log("\nA(n) " + w + "-by-" + l +  "-inch sheet of paper has an area of " + x +   " square millimeter(s).\n");
+console.log("\nA(n) " + w + "-by-" + l +  "-inch sheet of paper has an area of " + x +   " square millimeter(s).");
